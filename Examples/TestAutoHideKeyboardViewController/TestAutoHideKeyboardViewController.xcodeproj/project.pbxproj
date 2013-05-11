@@ -19,6 +19,7 @@
 		748DB9F717320DB900F0F312 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748DB9F517320DB900F0F312 /* MainStoryboard.storyboard */; };
 		748DB9FA17320DB900F0F312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748DB9F917320DB900F0F312 /* ViewController.m */; };
 		748DBA0217320F9100F0F312 /* AutoHideKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748DBA0117320F9100F0F312 /* AutoHideKeyboardViewController.m */; };
+		74D392C2173E589D00E37929 /* AutoHideKeyboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D392C1173E589D00E37929 /* AutoHideKeyboardTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		748DB9F917320DB900F0F312 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		748DBA0017320F9100F0F312 /* AutoHideKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHideKeyboardViewController.h; sourceTree = "<group>"; };
 		748DBA0117320F9100F0F312 /* AutoHideKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHideKeyboardViewController.m; sourceTree = "<group>"; };
+		74D392C0173E589D00E37929 /* AutoHideKeyboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHideKeyboardTableViewController.h; sourceTree = "<group>"; };
+		74D392C1173E589D00E37929 /* AutoHideKeyboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHideKeyboardTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				748DBA0017320F9100F0F312 /* AutoHideKeyboardViewController.h */,
 				748DBA0117320F9100F0F312 /* AutoHideKeyboardViewController.m */,
+				74D392C0173E589D00E37929 /* AutoHideKeyboardTableViewController.h */,
+				74D392C1173E589D00E37929 /* AutoHideKeyboardTableViewController.m */,
 			);
 			name = KeyboardHandlerController;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				748DB9EE17320DB900F0F312 /* AppDelegate.m in Sources */,
 				748DB9FA17320DB900F0F312 /* ViewController.m in Sources */,
 				748DBA0217320F9100F0F312 /* AutoHideKeyboardViewController.m in Sources */,
+				74D392C2173E589D00E37929 /* AutoHideKeyboardTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -76,3 +76,8 @@ There are only 2 steps to make your viewcontroller hide keyboard on background t
 **Step 2**: If you have any UITextView or UITextField in your page, set their delegate to your viewcontroller.
 
 That's it!
+
+***
+## 3. AutoHideKeyboardTableViewController
+
+The usage and the behaviour is the same as AutoHideKeyboardViewController. This is for UITableView to implement 'tap background to dismiss keyboard' behavior.
