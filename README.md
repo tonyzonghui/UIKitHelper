@@ -35,6 +35,29 @@ pageScrollView.numberOfReusableViews = 5;
 
 ```
 
+You also need to implement the datasource methods like UITableView in order for the page scroll view to know what to display
+
+```
+@interface ViewController () <ISPageScrollViewDataSource>
+
+@end
+
+@implementation ViewController
+…
+
+#pragma mark - ISPageScrollViewDataSource
+
+- (UIView *)viewForScrollView:(UIScrollView *)scrollView Page:(NSInteger)pageIndex
+{
+    UIView *pageView = [[UIView alloc] initWithFrame:scrollView.frame];
+    pageView.backgroundColor = [UIColor colorWithRed:pageIndex * 10 / 255.0 green:pageIndex * 10 / 255.0 blue:pageIndex * 10 / 255.0 alpha:1.0];
+    return pageView;
+}
+
+…
+@end
+```
+
 ***
 ## 2. AutoHideKeyboardViewController
 
