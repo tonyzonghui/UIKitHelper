@@ -1,6 +1,6 @@
 //
-//  main.m
-//  TestTapBackgroundToHideKeyboard
+//  ISAppDelegate.h
+//  TestInfiniteScrollView
 //
 //  Copyright (c) 2013 Zhang Zonghui
 //
@@ -24,11 +24,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+@interface ISAppDelegate : UIResponder <UIApplicationDelegate>
 
-int main(int argc, char *argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
-}
+@property (strong, nonatomic) UIWindow *window;
+
+@end

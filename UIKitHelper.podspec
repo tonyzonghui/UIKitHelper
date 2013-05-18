@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIKitHelper"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "UIKitHellper is a collection of UIKit classes that makes some common view behaviors easily to implement."
   s.description  = "UIKitHellper is a collection of UIKit classes that makes some common view behaviors easily to implement, like tap background to hide keyboard, infinite scroll view, etc."
   s.homepage     = "https://github.com/tonyzonghui/UIKitHelper"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
      LICENSE
   }
   s.author       = { "Zhang Zonghui" => "zhangzonghui01@gmail.com" }
-  s.source       = { :git => "https://github.com/tonyzonghui/UIKitHelper.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/tonyzonghui/UIKitHelper.git", :tag => "0.0.2" }
   s.platform     = :ios
 
   s.source_files = 'UIKitHelper'
