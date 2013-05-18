@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIKitHelper"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "UIKitHellper is a collection of UIKit classes that makes some common view behaviors easily to implement."
   s.description  = "UIKitHellper is a collection of UIKit classes that makes some common view behaviors easily to implement, like tap background to hide keyboard, infinite scroll view, etc."
   s.homepage     = "https://github.com/tonyzonghui/UIKitHelper"
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = {
      :type => 'MIT',
      :text => <<-LICENSE
-               Copyright (C) 2012
+               Copyright (C) 2013 Zhang Zonghui
 
                Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
      LICENSE
   }
   s.author       = { "Zhang Zonghui" => "zhangzonghui01@gmail.com" }
-  s.source       = { :git => "https://github.com/tonyzonghui/UIKitHelper.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/tonyzonghui/UIKitHelper.git", :tag => "0.0.3" }
   s.platform     = :ios
 
   s.source_files = 'UIKitHelper'
