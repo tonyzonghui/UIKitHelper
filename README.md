@@ -81,3 +81,8 @@ That's it!
 ## 3. AutoHideKeyboardTableViewController
 
 The usage and the behaviour is the same as AutoHideKeyboardViewController. This is for UITableView to implement 'tap background to dismiss keyboard' behavior.
+
+
+# License
+---
+UIKitHelper is available under the MIT license. See the LICENSE file for more info.
