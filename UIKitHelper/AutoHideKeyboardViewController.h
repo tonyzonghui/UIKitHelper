@@ -26,4 +26,6 @@
 
 @interface AutoHideKeyboardViewController : UIViewController
 
+- (void)viewBackgroundTapped:(UITapGestureRecognizer *)tapGestureRecognizer;
+
 @end

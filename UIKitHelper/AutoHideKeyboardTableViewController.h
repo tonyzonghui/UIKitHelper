@@ -25,4 +25,6 @@
 
 @interface AutoHideKeyboardTableViewController : UITableViewController
 
+- (void)viewBackgroundTapped:(UITapGestureRecognizer *)tapGestureRecognizer;
+
 @end
