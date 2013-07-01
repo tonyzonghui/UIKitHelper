@@ -87,17 +87,24 @@
 }
 
 
-#pragma mark - Private methods
+#pragma mark - Public methods
 
 - (void)displayPage:(NSInteger)pageIndex
 {
     [self setupScrollViewForDisplayingPage:pageIndex];
 }
 
+- (void)regenerateAllPages
+{
+    [_scrollViewAvailablePages removeAllObjects];
+}
+
+#pragma mark - Private methods
+
 - (void)setupScrollViewForDisplayingPage:(NSInteger)pageIndex
 {
     NSInteger minPageIndex = MAX(0, pageIndex - (_numberOfReusableViews - 1) / 2.0);
-    NSInteger maxPageIndex = MIN(_numberOfPages, pageIndex + (_numberOfReusableViews - 1) / 2.0);
+    NSInteger maxPageIndex = MIN(_numberOfPages - 1, pageIndex + (_numberOfReusableViews - 1) / 2.0);
     
     // remove unused views
     for ( NSNumber *pageIndex in _scrollViewAvailablePages.allKeys )

@@ -38,5 +38,6 @@
 @property (nonatomic, readonly) NSMutableDictionary *scrollViewAvailablePages;
 
 - (void)displayPage:(NSInteger)pageIndex;
+- (void)regenerateAllPages;
 
 @end
